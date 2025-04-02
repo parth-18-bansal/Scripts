@@ -1,0 +1,11 @@
+INFO Starting application...
+DEBUG Initializing database connection
+WARN Database connection slow
+ERROR Failed to connect to database
+INFO Retrying connection...
+WARN Connection timeout exceeded
+DEBUG Checking network settings
+INFO Connection established successfully
+WARN Low disk space on server
+ERROR Out of memory error occurred
+INFO Shutting down application
