@@ -1,0 +1,9 @@
+Hello John,
+
+Please contact us at support@example.com for further assistance.
+You can also reach out to our HR department at hr@company.org.
+
+Best Regards,
+Company Team
+
+P.S. Our secondary email is help.desk@service.net, in case you need urgent help.
