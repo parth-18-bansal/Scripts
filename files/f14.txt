@@ -1,0 +1,9 @@
+2025-04-08 12:00:01 INFO User login from 192.168.0.101
+2025-04-08 12:05:43 ERROR Connection failed from 10.0.0.2: timeout
+2025-04-08 12:15:10 WARNING Invalid password attempt from 172.16.5.4
+Server restarted at 2025-04-08 12:30:00
+New connection from 192.168.1.50
+Some random text with no IP
+Request from client at 8.8.8.8 successful
+Backup server IP is 10.10.10.10
+999.999.999.123
