@@ -1,0 +1,6 @@
+hello world
+This Is A Mix
+PYTHON is fun
+123 stay the same!
+symbols like @#$ are untouched
+newLine

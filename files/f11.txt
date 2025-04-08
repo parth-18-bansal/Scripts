@@ -1,0 +1,7 @@
+#This is a comment without a space
+# Another comment with a space
+#StillAnother
+#  Double space
+#YetAnotherOne
+Normal line
+# One more comment

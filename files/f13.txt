@@ -1,0 +1,5 @@
+apple banana apple
+orange banana fruit
+grape apple fruit banana
+kiwi mango orange
+fruit banana kiwi
