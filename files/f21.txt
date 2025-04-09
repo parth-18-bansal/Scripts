@@ -1,0 +1,5 @@
+Hello, World! Welcome to @Shell#Scripting 101.
+Remove *all* special$ characters% from& this^ line!
+Numbers like 1234 should stay.
+Keep_letters_and123numbers_but_remove-these#symbols!
+Final_line: test@case with!everything?

@@ -1,0 +1,5 @@
+This    is   a    line with    multiple   spaces.
+Another      line     with    extra   spacing.
+  Leading and   trailing   spaces    
+Tabs	and	mixed   spaces    here.
+Keep   practicing    shell    scripting!
