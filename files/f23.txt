@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# This is a sample shell script
+
+start_server() {
+    echo "Starting server..."
+}
+
+stop_server () {
+    echo "Stopping server..."
+}
+
+# Some inline commands
+echo "Deployment started"
+
+restartServer(){
+    stop_server
+    start_server
+}
+
+# Another function
+check_status  () {
+    echo "Status: Running"
+}
+
+# Not a function
+if [ "$1" == "status" ]; then
+    check_status
+fi

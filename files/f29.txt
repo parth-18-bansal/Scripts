@@ -1,0 +1,7 @@
+Visit our site at https://www.example.com for more info.
+Follow us at http://twitter.com/example
+This is just some random text without a link.
+Check out our blog: https://blog.example.org/articles/123?ref=home
+Invalid link: www.example without protocol
+Also, see http://example.net/page#section
+Contact support at support@example.com
