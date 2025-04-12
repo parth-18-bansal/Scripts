@@ -1,0 +1,7 @@
+alice@example.com
+bob.smith@company.org
+carol.johnson@sub.mail.edu
+dave@startup.io
+eve@research.lab.co.uk
+invalid.email@not_an_email
+frank@domain123.net

@@ -1,0 +1,7 @@
+abcdefghijklmnopqrstuvwx
+1234567890abcdefghijklmnopqrstuvwxyz
+The quick brown fox jumps over the lazy dog
+Shell scripting is powerful and fun
+Range extraction test file
+Short
+Another example with more text
