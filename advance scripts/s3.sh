@@ -28,3 +28,9 @@ done
 
 
 # mpstat = multiprocessor statistics, it gives the time of cpu and it cores spent where.
+# %.* = this is parameter expansion, here it % = this tell to remove the shortest match from the end to be removed from the string.
+# %%.* = %% this tell to remove the largest match from the end to be removed.
+# var#pattern = this tell to remove the shortes match from the start
+# var##pattern = this tell to remove the largest match from the start.
+
+# in place of the parameter expansion, we can also use the grep but parameter expansion works for the variables but alone grep do not.
