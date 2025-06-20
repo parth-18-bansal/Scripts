@@ -1,0 +1,18 @@
+1) Editing -> sed
+a) subsitution
+b) deletion any pattern
+c) insertion,appending,change the line 
+d) printing specific number of lines
+
+
+2) Table content -> awk
+a) There are two things here condition and action
+
+3) selection any thing based on the criteria -> grep
+a) select things that match the particular criteria
+b) select things that don't match the particular criteria
+
+4) Character level operation -> tr
+a) replace, delete, squeez
+
+5) Sorting -> sort
