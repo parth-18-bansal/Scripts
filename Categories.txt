@@ -17,3 +17,5 @@ b) select things that don't match the particular criteria
 a) replace, delete, squeez
 
 5) Sorting -> sort
+
+6) counting lines, words characters -> wc

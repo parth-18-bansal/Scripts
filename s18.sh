@@ -2,7 +2,16 @@
 
 # Find the 5 most frequent words in a file
 
-awk '{ for (i=1;i<=NF;i++) frequency[$i]++} END {for (word in frequency) print word, frequency[word]}' ./files/f18.txt | sort -k 2 -nr | head -n 5
+awk '{
+        for (i=1;i<=NF;i++){
+            frequency[$i]++
+        }
+    }
+    END{
+        for (word in frequency){
+            print word, frequency[word]
+        }
+    }' ./files/f18.txt | sort -k 2 -rn | head -n 5
 
 # END {} = Runs once after all lines have been processed in awk. 
 # BEGIN {} = Runs once before any input is read in awk.
