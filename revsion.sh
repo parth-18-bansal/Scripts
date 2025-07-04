@@ -1,5 +1,9 @@
 #!/bin/bash
 
-# List all running processes sorted by memory usage
+# Print every alternate line from a file 
 
-ps xua --sort=-%mem
+awk '(NR%2==0){
+
+    print
+
+}' ./files/f25.txt
