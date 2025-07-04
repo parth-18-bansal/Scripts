@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Find the 5 most frequent words in a file
+# List all running processes sorted by memory usage
 
-awk '{
-        for (i=1;i<=NF;i++){
-            frequency[$i]++
-        }
-    }' ./files/f18.txt
-
-for word in $frequency
-do
-    echo $word, $frequency[$word]
-done
+ps xua --sort=-%mem
