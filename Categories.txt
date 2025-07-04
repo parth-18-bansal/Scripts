@@ -1,6 +1,6 @@
 1) Editing -> sed
 a) subsitution
-b) deletion any pattern
+b) deletion any pattern , line
 c) insertion,appending,change the line 
 d) printing specific number of lines
 
@@ -19,3 +19,5 @@ a) replace, delete, squeez
 5) Sorting -> sort
 
 6) counting lines, words characters -> wc
+
+7) process of the system: ps
