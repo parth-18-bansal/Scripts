@@ -21,3 +21,5 @@ a) replace, delete, squeez
 6) counting lines, words characters -> wc
 
 7) process of the system: ps
+
+8) find --> for finding files and directories based on different conditions.
