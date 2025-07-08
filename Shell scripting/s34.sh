@@ -14,3 +14,6 @@ find . -type f -mtime -7
 # -delete = it will delete the files that are found, find . -name "*.tmp" -delete
 # -exec = it will execute the command on the files that are found, find . -name "*.tmp" -exec rm {} \;
 # -iname = it will find the files that are case insensitive
+
+# -7 = within last seven days
+# 7 = files change on exactly 7 days ago.
