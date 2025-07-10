@@ -6,4 +6,5 @@ cut -c 1-6 ./files/f36.txt
 
 # cut = it is used to extract sections from each line of files
 # -c = it is used to specify the character range to extract
+# -d = dilimiter
 # -f = it is used to specify the field range to extract like cut -d ',' -f 2 file.csv. Gets the second field from a CSV file.
