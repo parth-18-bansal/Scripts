@@ -1,3 +1,5 @@
+# List top 10 largest files in a directory.
+
 import os
 import heapq
 
