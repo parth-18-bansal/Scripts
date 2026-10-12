@@ -10,3 +10,4 @@ sed -n "10,20p" ./files/f3.txt
 
 # e.g = -n "2p" = print only line 2
 # e.g = -n "/pattern/p" = print only the lines that match the pattern
+# similar to d, d = delete, p = print, so !p also works for printing those that do not match pattern.

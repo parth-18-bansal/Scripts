@@ -2,4 +2,6 @@
 
 set -euo pipefail
 
-sed 's/shels/{&}p/g' ./files/f1.txt
+# Extract only email addresses from a text file
+
+sed '2c insert new line' ./files/f3.txt
