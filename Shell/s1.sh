@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 # Delete all blank lines from a file
 
@@ -11,4 +13,5 @@ sed '/^$/d' ./files/f1.txt
 # !d = delete all lines that do not match the pattern
 # 3d = delete line 3
 # 3,5d = delete lines 3 to 5
+# -e = it is used if we want to perform mulitple operation in single command
 # sed -e 's/editor/{&}/g' = here & = matched string so this replace editor with {editor}
