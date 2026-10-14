@@ -12,3 +12,5 @@ grep -Eo "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" ./files/f6.txt
 # {n,m} = at least n times and at most m times
 # [a-zA-Z0-9._%+-] = any letter, number, dot, underscore, percent, plus or minus
 # \. = escape the dot
+# -o = only matching, it give only matching part, by default greps give complete lines that contains
+#      the matching part

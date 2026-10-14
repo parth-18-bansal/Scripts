@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-# Extract only email addresses from a text file
+# Print the number of columns in a CSV file
 
-sed '2c insert new line' ./files/f3.txt
+awk -F, 'NR > 1 && $(NF-1) > 25' ./files/f7.csv
