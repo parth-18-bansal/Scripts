@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-# Print the number of columns in a CSV file
+# Extract only IP addresses from a log file
 
-awk -F, 'NR > 1 && $(NF-1) > 25' ./files/f7.csv
+grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' ./files/f14.txt
