@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-# Extract only IP addresses from a log file
+# Write a script to count the number of lines in a file
 
-grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' ./files/f14.txt
+wc -l < ./files/f16.txt
