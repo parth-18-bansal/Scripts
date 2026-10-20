@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-# Write a script to count the number of lines in a file
+# Find and count duplicate lines in a file
 
-wc -l < ./files/f16.txt
+sort ./files/f22.txt | uniq -c | sort -nr | awk '$1>1 {print $0}'
