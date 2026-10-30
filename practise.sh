@@ -2,5 +2,5 @@
 
 set -euo pipefail
 
-# Delete the first and last line from a file
-sed '1d;$d' ./files/f25.txt
+# Extract URLs from a file
+grep -Eo '\b(http|https)://[a-zA-Z0-9./?=_%:-]+\b' ./files/f29.txt
