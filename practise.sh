@@ -2,5 +2,14 @@
 
 set -euo pipefail
 
-# Extract URLs from a file
-grep -Eo '\b(http|https)://[a-zA-Z0-9./?=_%:-]+\b' ./files/f29.txt
+# Find the longest line in a file
+max=0
+awk '{
+        if (length > max){
+            max = length
+            longest = $0
+        }
+    }
+    END{
+        print longest
+    }'  ./files/f30.txt
